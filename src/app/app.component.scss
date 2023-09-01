@@ -1,0 +1,36 @@
+.card-container>div {
+    text-align: center;
+    padding: 10px;
+}
+
+p-sidebar .flex.flex-column>div {
+    text-align: center;
+}
+
+.menu-button {
+    display: none;
+}
+
+.p-menubar-start {
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+
+
+@media screen and (max-width: 765px) {
+    .card-container {
+        display: none;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+}
